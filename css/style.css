@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+html {  
+    height: 100%;
+}
+
+body {  
+    height: 100%;
+}
+
+.app {  
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-header {
+    background-color: rgb(169, 220, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-footer {
+    background-color: rgb(169, 220, 243);
+}
+
+.book-app {
+    background-color: rgb(128, 176, 196);
+    flex-grow: 1;
+}
+
+.book-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-list li {
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: rgb(121, 180, 219);
+    padding: 0 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.book-details ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
+
+.user-msg {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
