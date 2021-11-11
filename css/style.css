@@ -76,3 +76,11 @@ body {
     top: 20px;
     right: 20px;
 }
+
+.book-filter {
+    padding: 10px;
+}
+
+.book-add {
+    padding: 10px;
+}

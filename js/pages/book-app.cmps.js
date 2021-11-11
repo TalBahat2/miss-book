@@ -1,15 +1,18 @@
 import { bookService } from '/js/services/book-service.js'
 import bookFilter from '/js/cmps/book-filter.cmps.js'
 import bookList from '/js/cmps/book-list.cmps.js'
+import bookAdd from '/js/cmps/book-add.cmps.js'
 
 export default {
     components: {
         bookFilter,
         bookList,
+        bookAdd
     },
     template: `
         <section class="book-app">
             <book-filter @filtered="setFilter"/>
+            <book-add />
             <book-list :books="booksToShow" @selected="selectBook" />
         </section>
     `,

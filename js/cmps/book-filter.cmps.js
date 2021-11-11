@@ -1,7 +1,7 @@
 export default {
     template: `
     <form class="book-filter">
-        <h4>Search Your Book</h4>
+        <h3>Search Your Book</h3>
         <input @input="filter" v-model="filterBy.byName" placeholder="Enter book name">
         <input @input="filter" v-model.number="filterBy.fromPrice" type="number" placeholder="Enter min price (ILS)">
         <input @input="filter" v-model.number="filterBy.toPrice" type="number" placeholder="Enter max price (ILS)">
